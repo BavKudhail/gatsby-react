@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   color: #fff;
+  position: relative;
 }
 
 .heroGroup {
@@ -66,5 +67,26 @@
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+.hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.techStack {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+}
+
+@media (max-width: 640px) {
+  .techStack {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
