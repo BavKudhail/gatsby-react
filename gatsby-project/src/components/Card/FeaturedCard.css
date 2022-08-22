@@ -1,0 +1,32 @@
+.project-container {
+  max-width: 800px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.project-container:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+  /* position: absolute; */
+  width: 50%;
+  top: 0;
+  height: 110%;
+  z-index: -1;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.text-container {
+}
+
+.text-container h5 {
+}
+
+.tech-container {
+}

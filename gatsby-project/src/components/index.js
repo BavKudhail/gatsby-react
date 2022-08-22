@@ -1,2 +1,6 @@
-export { default as Header } from "./Header/Header"
-export { default as Hero } from "./Hero/Hero"
+export { default as Header } from "./Navbar/Navbar"
+export { default as Hero } from "./Sections/Hero/Hero"
+export { default as Projects } from "./Sections/Projects/Projects"
+export { default as Contact } from "./Sections/Contact/Contact"
+export { default as About } from "./Sections/About/About"
+export { default as Section } from "./Section"

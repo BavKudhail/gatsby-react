@@ -1,7 +1,7 @@
 import * as React from "react"
 import { useState, useEffect } from "react"
 import { Link } from "gatsby"
-import "./Header.css"
+import "./Navbar.css"
 import logo from "../../images/logo_b.png"
 
 const Header = () => {
@@ -30,9 +30,7 @@ const Header = () => {
           <Link to="/">About</Link>
           <Link to="/">Work</Link>
           <Link to="/">Services</Link>
-          <Link to="/">
-            <button>Contact Me</button>
-          </Link>
+          <Link to="/">Contact</Link>
         </div>
       </div>
     </header>
