@@ -5,6 +5,7 @@ import graphQL from "../../../images/graphql.png"
 import redux from "../../../images/redux.png"
 import sass from "../../../images/sass.png"
 import html from "../../../images/html.png"
+import tailwind from "../../../images/tailwind-css-logo-5AD4175897-seeklogo.com.png"
 import Card from "../../Card/Card"
 import Wave from "../../Wave"
 
@@ -25,6 +26,7 @@ const Hero = () => {
             <img src={redux} width="50px" />
             <img src={sass} width="50px" />
             <img src={html} width="50px" />
+            <img src={tailwind} width="50px" />
           </div>
           <Wave />
         </div>

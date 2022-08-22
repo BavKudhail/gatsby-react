@@ -1,15 +1,16 @@
 .header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   padding: 20px 0;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  /* backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); */
   z-index: 100;
-  transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .headerScroll {
-  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  display: none;
   padding: 20px 0;
 }
 

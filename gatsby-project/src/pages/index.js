@@ -1,10 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { About, Contact, Header, Hero, Projects, Section } from "../components"
+
 import Featured from "../components/Sections/Featured/Featured"
 import staticData from "../../staticdata.json"
 import Cell from "../components/Cell"
 import styled from "styled-components"
+
+// styled components 
 
 const SectionCaption = styled.p`
   font-weight: 600;
