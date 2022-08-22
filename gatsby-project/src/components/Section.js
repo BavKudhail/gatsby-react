@@ -11,6 +11,10 @@ const SectionGroup = styled.div`
   grid-template-rows: 300px auto;
   grid-gap: 20px;
   position: relative;
+
+  @media (max-width: 640px) {
+    height: 820px;
+  }
 `
 const SectionLogo = styled.img`
   align-self: end;
